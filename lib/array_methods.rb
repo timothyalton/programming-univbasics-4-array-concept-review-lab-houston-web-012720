@@ -9,7 +9,7 @@ end
 
 def find_max_value(array)
   array.length.times do |index|
-    if array[index] == array[index].max 
+    if array[index] == array.max 
       return index
     end
   end
